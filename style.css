@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.pole {
+	border: 1px solid black;
+	background: no-repeat  url('bg_fone.jpg');
+	width: 900px;
+	height: 1253px;
+	padding: 0;	
+}
+
+.title_h2 {
+	margin-top: 190px;
+	margin-left: 43%;
+	margin-bottom: -180px;
+}
+.title_h3 {
+	margin-top: 191px;
+	margin-left: 43.7%;
+}
+
+.content {
+	display: block;
+	margin-left: 7.6%;
+	width: 750px;
+	height: 697px;
+	line-height: 1.3;
+}
+
+.city_p {
+	margin-top: 1px;
+	margin-left: 60%;
+}
+.p_footer1 {
+	width: 292px;
+	height: 68px;
+	margin-left: 27%;
+}
+.notarius{
+	display: flex;
+
+}
+.notarius_p1 {
+	margin-left: 20px;
+	margin-right: 218px;
+}
+.pechat {
+	width: 216px;
+	height: 196px;
+	margin-top: -91px;
+	margin-left: 84px;
+}
+.podtis {
+	position: relative;
+	top: -90px;
+	left: 228px;
+	width: 125px;
+	height: 71px;
+}
+.btn_png{
+	border-radius: 25px;
+	margin-left: 25%;
+background: #000;
+color: aliceblue;
+width: 105px;
+height: 50px;
+}
+.btn_png:hover{
+	background: green;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: relative;
+	left: 360px;
+	top: 249%;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+	background-color: rgb(205, 84, 77);
+  border: 1px solid #49e805;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: #000;
+  font-size: 18px;
+  font-weight: 100;
+}
